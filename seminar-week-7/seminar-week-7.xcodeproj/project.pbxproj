@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB69482F2752068D00B0A3DD /* DelegatePracticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB69482E2752068D00B0A3DD /* DelegatePracticeVC.swift */; };
+		EB694832275207BD00B0A3DD /* keywordCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB694830275207BD00B0A3DD /* keywordCVC.swift */; };
+		EB694833275207BD00B0A3DD /* keywordCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB694831275207BD00B0A3DD /* keywordCVC.xib */; };
 		EBE030202751F8CC002A03A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0301F2751F8CC002A03A7 /* AppDelegate.swift */; };
 		EBE030222751F8CC002A03A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE030212751F8CC002A03A7 /* SceneDelegate.swift */; };
 		EBE030242751F8CC002A03A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE030232751F8CC002A03A7 /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB69482E2752068D00B0A3DD /* DelegatePracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePracticeVC.swift; sourceTree = "<group>"; };
+		EB694830275207BD00B0A3DD /* keywordCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keywordCVC.swift; sourceTree = "<group>"; };
+		EB694831275207BD00B0A3DD /* keywordCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = keywordCVC.xib; sourceTree = "<group>"; };
 		EBE0301C2751F8CC002A03A7 /* seminar-week-7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "seminar-week-7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE0301F2751F8CC002A03A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBE030212751F8CC002A03A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +70,9 @@
 				EBE030212751F8CC002A03A7 /* SceneDelegate.swift */,
 				EBE030232751F8CC002A03A7 /* ViewController.swift */,
 				EBE030252751F8CC002A03A7 /* Main.storyboard */,
+				EB694830275207BD00B0A3DD /* keywordCVC.swift */,
+				EB694831275207BD00B0A3DD /* keywordCVC.xib */,
+				EB69482E2752068D00B0A3DD /* DelegatePracticeVC.swift */,
 				EBE030332751F904002A03A7 /* FirstVC.swift */,
 				EBE030352751F90E002A03A7 /* SecondVC.swift */,
 				EBE030282751F8D1002A03A7 /* Assets.xcassets */,
@@ -131,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB694833275207BD00B0A3DD /* keywordCVC.xib in Resources */,
 				EBE0302C2751F8D1002A03A7 /* LaunchScreen.storyboard in Resources */,
 				EBE030292751F8D1002A03A7 /* Assets.xcassets in Resources */,
 				EBE030272751F8CC002A03A7 /* Main.storyboard in Resources */,
@@ -146,7 +156,9 @@
 			files = (
 				EBE030242751F8CC002A03A7 /* ViewController.swift in Sources */,
 				EBE030362751F90E002A03A7 /* SecondVC.swift in Sources */,
+				EB69482F2752068D00B0A3DD /* DelegatePracticeVC.swift in Sources */,
 				EBE030342751F904002A03A7 /* FirstVC.swift in Sources */,
+				EB694832275207BD00B0A3DD /* keywordCVC.swift in Sources */,
 				EBE030202751F8CC002A03A7 /* AppDelegate.swift in Sources */,
 				EBE030222751F8CC002A03A7 /* SceneDelegate.swift in Sources */,
 			);
