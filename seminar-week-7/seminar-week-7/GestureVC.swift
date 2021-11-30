@@ -9,21 +9,28 @@ import UIKit
 
 class GestureVC: UIViewController {
 
+    @IBOutlet weak var testView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapView(GestureRecognizer:)))
+        
+        let tapRecognizer2 = UITapGestureRecognizer()
+        tapRecognizer.addTarget(self, action: #selector(tapView(GestureRecognizer:)))
+        
+        testView.addGestureRecognizer(tapRecognizer)
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @objc func tapView(GestureRecognizer: UIGestureRecognizer){
+        print("두 번째 코드로 tap")
     }
-    */
 
+    @IBAction func tapGesture(_ sender: UITapGestureRecognizer) {
+        print("uiView 안에서 tap")
+    }
+    
+    
+    
 }

@@ -75,6 +75,4 @@ extension DelegatePracticeVC: KeywordCellDelegate {
         warningLabel.text = "\(selectedNameList.count)명이 선택되었습니다"
         warningLabel.textColor = selectedNameList.count > 8 ? .red : .black
     }
-    
-    
 }
